@@ -1,0 +1,26 @@
+{
+  "name": "mern_web_store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsutkarshgupta/MERN_Web_store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsutkarshgupta/MERN_Web_store/issues"
+  },
+  "homepage": "https://github.com/itsutkarshgupta/MERN_Web_store#readme",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  }
+}
