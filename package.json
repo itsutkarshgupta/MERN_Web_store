@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/itsutkarshgupta/MERN_Web_store.git"
   },
+  "type":"module",
   "keywords": [],
   "author": "",
   "license": "ISC",
