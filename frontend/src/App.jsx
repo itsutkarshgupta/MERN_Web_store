@@ -1,13 +1,11 @@
-import { Button } from "@chakra-ui/react"
+import { Box, Button } from "@chakra-ui/react";
 
 function App() {
-
-
   return (
     <>
-      <Button>Hello</Button>
+      <Box minH={"100vh"}>{}</Box>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
