@@ -1,4 +1,4 @@
-import { Container, SimpleGrid, Text, VStack } from "@chakra-ui/react";
+import { Button, Container, SimpleGrid, Text, VStack } from "@chakra-ui/react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useProductStore } from "../store/product";
@@ -46,15 +46,19 @@ const HomePage = () => {
             fontWeight="bold"
             color="gray.500"
           >
-            No products found 😢{" "}
+            No products found 📭{" "}
             <Link to={"/create"}>
-              <Text
-                as="span"
-                color="blue.500"
-                _hover={{ textDecoration: "underline" }}
-              >
-                Create a product
-              </Text>
+              <br />
+              <br />
+              <Button bg={"blue.400"}>
+                <Text
+                  as="span"
+                  color="gray.100"
+                  _hover={{ textDecoration: "underline" }}
+                >
+                  Create Product!
+                </Text>
+              </Button>
             </Link>
           </Text>
         )}
