@@ -99,7 +99,11 @@ const ProductCard = ({ product }) => {
         </Heading>
 
         <Text fontWeight="bold" fontSize="xl" color={textColor} mb={4}>
-          ${product.price}
+          INR {product.price}
+        </Text>
+
+        <Text fontWeight="normal" fontSize="lg" color={textColor} mb={4}>
+          "{product.description}"
         </Text>
 
         <HStack spacing={2}>
@@ -148,6 +152,17 @@ const ProductCard = ({ product }) => {
                   setUpdatedProduct({
                     ...updatedProduct,
                     image: e.target.value,
+                  })
+                }
+              />
+              <Input
+                placeholder="Description"
+                name="description"
+                value={updatedProduct.description}
+                onChange={(e) =>
+                  setUpdatedProduct({
+                    ...updatedProduct,
+                    description: e.target.value,
                   })
                 }
               />
