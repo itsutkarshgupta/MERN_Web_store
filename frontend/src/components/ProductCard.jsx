@@ -99,7 +99,7 @@ const ProductCard = ({ product }) => {
         </Heading>
 
         <Text fontWeight="bold" fontSize="xl" color={textColor} mb={4}>
-          INR {product.price}
+          ₹{product.price}
         </Text>
 
         <Text fontWeight="normal" fontSize="lg" color={textColor} mb={4}>
