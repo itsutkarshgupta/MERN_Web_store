@@ -11,7 +11,7 @@ import {
 import { useState } from "react";
 import { useProductStore } from "../store/product";
 
-const CreatePage = () => {
+const Createpage = () => {
   const [newProduct, setNewProduct] = useState({
     name: "",
     price: "",
@@ -100,4 +100,4 @@ const CreatePage = () => {
     </Container>
   );
 };
-export default CreatePage;
+export default Createpage;
