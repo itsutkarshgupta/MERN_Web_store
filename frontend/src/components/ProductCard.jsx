@@ -103,7 +103,7 @@ const ProductCard = ({ product }) => {
         </Text>
 
         <Text fontWeight="normal" fontSize="lg" color={textColor} mb={4}>
-          "{product.description}"
+          {product.description}
         </Text>
 
         <HStack spacing={2}>

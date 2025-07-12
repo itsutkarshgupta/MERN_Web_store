@@ -2,29 +2,31 @@
   "name": "mern_web_store",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon backend/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "NODE_ENV=development nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "NODE_ENV=production node backend/server.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/itsutkarshgupta/MERN_Web_store.git"
   },
-  "type":"module",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/itsutkarshgupta/MERN_Web_store/issues"
   },
   "homepage": "https://github.com/itsutkarshgupta/MERN_Web_store#readme",
   "dependencies": {
-    "dotenv": "^17.0.1",
-    "express": "^5.1.0",
+    "dotenv": "^17.2.0",
+    "express": "4.18.2",
     "mongoose": "^8.16.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.0"
   }
 }

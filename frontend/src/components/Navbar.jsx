@@ -38,7 +38,7 @@ const Navbar = () => {
             </Button>
           </Link>
           <Button onClick={toggleColorMode}>
-            {colorMode === "light" ? "🌒" : "🌤"}
+            {colorMode === "light" ? "🌙" : "☀️"}
           </Button>
         </HStack>
       </Flex>
