@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <Container maxW={"100%"} px={4} boxShadow={"md"} mb={4} borderRadius={"md"}>
       <Flex
-        h={20}
+        h={21}
         alignItems={"center"}
         justifyContent={"space-between"}
         flexDirection={{ base: "column", sm: "row" }}
