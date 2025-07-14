@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <Container maxW={"100%"} px={4} boxShadow={"md"} mb={4} borderRadius={"md"}>
       <Flex
-        h={20}
+        h={16}
         alignItems={"center"}
         justifyContent={"space-between"}
         flexDirection={{ base: "column", sm: "row" }}
@@ -29,12 +29,12 @@ const Navbar = () => {
         <HStack spacing={2} alignItems={"center"}>
           <Link to="/">
             <Button>
-              <IoHomeOutline fontSize={20}></IoHomeOutline>
+              <IoHomeOutline fontSize={18}></IoHomeOutline>
             </Button>
           </Link>
           <Link to="/create">
             <Button>
-              <FaRegPlusSquare fontSize={20}></FaRegPlusSquare>
+              <FaRegPlusSquare fontSize={18}></FaRegPlusSquare>
             </Button>
           </Link>
           <Button onClick={toggleColorMode}>
