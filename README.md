@@ -55,3 +55,6 @@ MERN_Web_store/
 ├── .env
 └── README.md
 ```
+
+## Run commands
+- npm run start
